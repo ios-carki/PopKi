@@ -4,7 +4,7 @@ open class PopKi: UIViewController {
     public func runVC(from: UIViewController, to: UIViewController, isExistAnimation: Bool) {
         to.modalPresentationStyle = .overCurrentContext
         
-        from.present(to, animated: isExistAnimation)
+        self.present(to, animated: isExistAnimation)
     }
 }
 
