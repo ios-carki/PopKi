@@ -1,5 +1,5 @@
 public struct PopKi {
-    public private(set) var text = "Hello, World!"
+    public private(set) var text = "PopKi: Hello, World!"
 
     public init() {
     }
