@@ -1,6 +1,16 @@
-public struct PopKi {
-    public private(set) var text = "PopKi: Hello, World!"
+import UIKit
 
-    public init() {
+open class PopKi: UIViewController {
+    public func runVC(from: UIViewController, to: UIViewController, isExistAnimation: Bool) {
+        to.modalPresentationStyle = .overCurrentContext
+        
+        from.present(to, animated: isExistAnimation)
     }
 }
+
+//@objc func resignButtonClicked() {
+//    let vc = MyInfoWithdrawViewController()
+//    vc.modalPresentationStyle = .overCurrentContext
+//
+//    self.present(vc, animated: false)
+//}

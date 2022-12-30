@@ -6,6 +6,6 @@ final class PopKiTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(PopKi().text, "Hello, World!")
+        //XCTAssertEqual(PopKi().text, "Hello, World!")
     }
 }
