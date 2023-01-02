@@ -8,9 +8,16 @@ open class PopKi: UIViewController {
     }
 }
 
-//@objc func resignButtonClicked() {
-//    let vc = MyInfoWithdrawViewController()
-//    vc.modalPresentationStyle = .overCurrentContext
-//
-//    self.present(vc, animated: false)
-//}
+open class PopKiUI: UIView {
+    //View
+    private let viewColor = UIColor()
+    private let contentsView: UIView = {
+        let view = UIView()
+        view.layer.cornerRadius = 16
+        view.clipsToBounds = true
+        view.backgroundColor = .white
+        return view
+    }()
+    private let dismissButton = UIButton()
+    private let okButton = UIButton()
+}
